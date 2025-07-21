@@ -11,7 +11,7 @@
     <meta property="og:title" content="Angelique Uwamahoro | AI Researcher & PhD Candidate">
     <meta property="og:description" content="AI Researcher specializing in Computer Vision and Federated Learning">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourdomain.com">
+    <meta property="og:url" content="https://angelbidas.github.io/angelique-portfolio/">
     
     <title>Angelique Uwamahoro | AI Researcher & PhD Candidate</title>
     
@@ -22,25 +22,24 @@
     <link rel="stylesheet" href="css/style.css">
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     
     <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="#home">Angelique Uwamahoro</a>
+                <a href="#home">AU</a>
             </div>
             <div class="nav-menu" id="nav-menu">
                 <a href="#home" class="nav-link active">Home</a>
                 <a href="#about" class="nav-link">About</a>
-                <a href="#education" class="nav-link">Education</a>
+                <a href="#research" class="nav-link">Research</a>
                 <a href="#experience" class="nav-link">Experience</a>
                 <a href="#projects" class="nav-link">Projects</a>
-                <a href="#skills" class="nav-link">Skills</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             <div class="nav-toggle" id="nav-toggle">
@@ -54,44 +53,70 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-container">
-            <div class="hero-content">
-                <div class="hero-image">
-                    <!-- Replace with your actual photo -->
-                    <div class="profile-placeholder">AU</div>
-                    <!-- Uncomment when you add your photo:
-                    <img src="images/profile.jpg" alt="Angelique Uwamahoro" class="profile-img">
-                    -->
-                </div>
+            <div class="hero-left">
+                <div class="hero-badge">AI Researcher</div>
                 <h1 class="hero-title">
-                    Hi, I'm <span class="highlight">Angelique Uwamahoro</span>
+                    Hi, I'm<br>
+                    <span class="name-highlight">Angelique</span><br>
+                    <span class="subtitle">Uwamahoro</span>
                 </h1>
-                <p class="hero-subtitle">
-                    AI Researcher | Computer Vision Specialist | PhD Candidate
-                </p>
                 <p class="hero-description">
-                    Passionate about advancing artificial intelligence through research in 
-                    <strong>federated learning</strong> and <strong>computer vision</strong>, 
-                    with a focus on solutions for resource-constrained environments.
+                    PhD candidate specializing in <strong>Computer Vision</strong> and 
+                    <strong>Federated Learning</strong> for resource-constrained environments. 
+                    Passionate about democratizing AI technology.
                 </p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Research</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">AI Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Awards Won</span>
+                    </div>
+                </div>
                 <div class="hero-buttons">
                     <a href="assets/cv.pdf" class="btn btn-primary" download>
-                        <i class="fas fa-download"></i> Download CV
+                        <i class="fas fa-download"></i>
+                        Download CV
                     </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-envelope"></i> Get In Touch
-                    </a>
-                </div>
-                <div class="hero-social">
-                    <a href="mailto:uwamahoroangel78@gmail.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/angelique-u/" class="social-link" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/Angelbidas" class="social-link" target="_blank">
-                        <i class="fab fa-github"></i>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-paper-plane"></i>
+                        Get In Touch
                     </a>
                 </div>
+            </div>
+            <div class="hero-right">
+                <div class="hero-image-container">
+                    <!-- Profile Image Placeholder -->
+                    <div class="profile-circle">
+                        <span class="profile-initials">AU</span>
+                    </div>
+                    <!-- Uncomment when you add your photo:
+                    <img src="images/profile.jpg" alt="Angelique Uwamahoro" class="hero-image">
+                    -->
+                    <div class="floating-elements">
+                        <div class="float-item" data-speed="2">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="float-item" data-speed="3">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="float-item" data-speed="1.5">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll to explore</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
             </div>
         </div>
     </section>
@@ -99,94 +124,129 @@
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Me</h2>
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
             <div class="about-content">
                 <div class="about-text">
-                    <p class="lead">
-                        I am a passionate <span class="highlight">AI researcher and computer vision specialist</span> 
-                        currently pursuing my Master's in Engineering Artificial Intelligence at Carnegie Mellon University.
-                    </p>
-                    <p>
-                        My research focuses on developing <strong>resilient federated learning frameworks in 
-                        resource-constrained environments</strong>, addressing critical challenges in deploying AI 
-                        solutions across diverse and limited-resource settings.
-                    </p>
-                    <p>
-                        Through my work at various organizations, I have successfully designed machine learning 
-                        models that have <strong>increased prediction accuracy by 15%</strong> for small businesses 
-                        and developed AI prototypes that address real-world challenges in health and agriculture.
-                    </p>
-                    <p>
-                        As a <strong>Rwanda Science Competition winner</strong> and recipient of multiple awards 
-                        for my innovative AI projects, I am committed to leveraging technology to solve pressing 
-                        problems in underserved communities.
-                    </p>
+                    <div class="text-block">
+                        <h3>Passionate AI Researcher</h3>
+                        <p>I am currently pursuing my Master's in Engineering Artificial Intelligence at Carnegie Mellon University, focusing on the intersection of <span class="highlight">computer vision and federated learning</span>.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Research Focus</h3>
+                        <p>My work centers on developing <span class="highlight">resilient federated learning frameworks in resource-constrained environments</span>, addressing critical challenges in deploying AI solutions across diverse settings.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Impact & Recognition</h3>
+                        <p>Through various organizations, I've designed ML models that increased prediction accuracy by <span class="highlight">15%</span> for small businesses and developed AI prototypes addressing real-world challenges in health and agriculture.</p>
+                    </div>
+                    <div class="text-block">
+                        <h3>Mission</h3>
+                        <p>As a <span class="highlight">Rwanda Science Competition winner</span> and multiple award recipient, I'm committed to making AI technology accessible to everyone, regardless of geographical or economic circumstances.</p>
+                    </div>
                 </div>
-                <div class="about-stats">
-                    <div class="stat-item">
-                        <div class="stat-number">3+</div>
-                        <div class="stat-label">Years Experience</div>
+                <div class="about-visual">
+                    <div class="skill-categories">
+                        <div class="skill-cat">
+                            <h4>AI & ML</h4>
+                            <div class="skill-dots">
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>Computer Vision</h4>
+                            <div class="skill-dots">
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                            </div>
+                        </div>
+                        <div class="skill-cat">
+                            <h4>Research</h4>
+                            <div class="skill-dots">
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot active"></span>
+                                <span class="dot"></span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="stat-item">
-                        <div class="stat-number">5+</div>
-                        <div class="stat-label">AI Projects</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">3</div>
-                        <div class="stat-label">Awards Won</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">3.7</div>
-                        <div class="stat-label">GPA</div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>uwamahoroangel78@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(+250) 780 919 691</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Kigali, Rwanda</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education Section -->
-    <section id="education" class="education">
+    <!-- Research & Education Section -->
+    <section id="research" class="research">
         <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>MS Engineering Artificial Intelligence</h3>
-                        <h4>Carnegie Mellon University, Kigali</h4>
-                        <span class="timeline-date">08/2024 – Present</span>
-                        <ul>
-                            <li>Focus: ML, Computer Vision and Research Track</li>
-                            <li>Research Strategist in the Research Club</li>
-                        </ul>
+            <div class="section-header">
+                <span class="section-tag">Academic Journey</span>
+                <h2 class="section-title">Research & Education</h2>
+            </div>
+            <div class="research-grid">
+                <div class="education-card current">
+                    <div class="card-header">
+                        <span class="year">2024 - Present</span>
+                        <span class="status">Current</span>
+                    </div>
+                    <h3>MS Engineering AI</h3>
+                    <h4>Carnegie Mellon University</h4>
+                    <p>Specializing in ML, Computer Vision and Research. Serving as Research Strategist in the Research Club.</p>
+                    <div class="card-tags">
+                        <span class="tag">Federated Learning</span>
+                        <span class="tag">Computer Vision</span>
+                        <span class="tag">Research</span>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>BSc Computer and Software Engineering</h3>
-                        <h4>University of Rwanda, Kigali</h4>
-                        <span class="timeline-date">11/2019 – 05/2024</span>
-                        <ul>
-                            <li>Cumulative GPA: 3.7/4.0</li>
-                            <li>Class and school representative</li>
-                            <li>Rwanda Science Competition winner</li>
-                        </ul>
+                <div class="education-card">
+                    <div class="card-header">
+                        <span class="year">2019 - 2024</span>
+                        <span class="gpa">GPA 3.7/4.0</span>
+                    </div>
+                    <h3>BSc Computer & Software Engineering</h3>
+                    <h4>University of Rwanda</h4>
+                    <p>Class representative and Rwanda Science Competition winner. Strong foundation in computer science and software engineering.</p>
+                    <div class="card-tags">
+                        <span class="tag">Software Engineering</span>
+                        <span class="tag">Competition Winner</span>
                     </div>
                 </div>
 
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3>African Computer Vision Summer School</h3>
-                        <h4>AIMS, Kigali</h4>
-                        <span class="timeline-date">2025 Cohort</span>
-                        <ul>
-                            <li>Advanced training in computer vision techniques and deep learning</li>
-                            <li>Research methodology and presentation skills</li>
-                            <li>Hackathon winner</li>
-                        </ul>
+                <div class="education-card">
+                    <div class="card-header">
+                        <span class="year">2025</span>
+                        <span class="status">Winner</span>
+                    </div>
+                    <h3>Computer Vision Summer School</h3>
+                    <h4>AIMS, Kigali</h4>
+                    <p>Advanced training in CV techniques, deep learning, and research methodologies. Hackathon winner with team project.</p>
+                    <div class="card-tags">
+                        <span class="tag">Deep Learning</span>
+                        <span class="tag">Hackathon Winner</span>
                     </div>
                 </div>
             </div>
@@ -196,66 +256,65 @@
     <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-item">
-                    <div class="experience-header">
+            <div class="section-header">
+                <span class="section-tag">Professional Path</span>
+                <h2 class="section-title">Work Experience</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">June 2025 - Present</span>
                         <h3>Research Assistant Intern</h3>
-                        <span class="experience-date">06/2025 – Present</span>
+                        <h4>Carnegie Mellon University</h4>
+                        <p>Leading Computer Vision and Federated Learning projects. Writing research papers on resilient FL frameworks in resource-constrained environments.</p>
+                        <div class="achievements">
+                            <span class="achievement">• Research paper in progress</span>
+                            <span class="achievement">• FL framework development</span>
+                        </div>
                     </div>
-                    <h4>Carnegie Mellon University</h4>
-                    <ul>
-                        <li>Working on Computer Vision and Federated learning Projects</li>
-                        <li>Writing research papers and exploring resilient FL frameworks</li>
-                    </ul>
                 </div>
 
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>Graduate Teaching Assistant</h3>
-                        <span class="experience-date">09/2024 – 10/2024</span>
-                    </div>
-                    <h4>Carnegie Mellon University</h4>
-                    <ul>
-                        <li>Provided individualized guidance to improve academic performance</li>
-                        <li>Organized and evaluated hands-on workshops for diverse student groups</li>
-                    </ul>
-                </div>
-
-                <div class="experience-item">
-                    <div class="experience-header">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Feb 2023 - Aug 2024</span>
                         <h3>AI and Data Scientist</h3>
-                        <span class="experience-date">02/2023 – 08/2024</span>
+                        <h4>HUZALABS</h4>
+                        <p>Designed machine learning models for small businesses, achieving significant performance improvements.</p>
+                        <div class="achievements">
+                            <span class="achievement">• 15% accuracy improvement</span>
+                            <span class="achievement">• Cross-functional collaboration</span>
+                        </div>
                     </div>
-                    <h4>HUZALABS</h4>
-                    <ul>
-                        <li>Designed ML models increasing prediction accuracy by <strong>15%</strong></li>
-                        <li>Enhanced collaboration across interdisciplinary teams for AI solutions</li>
-                    </ul>
                 </div>
 
-                <div class="experience-item">
-                    <div class="experience-header">
-                        <h3>AI and IOT Engineer</h3>
-                        <span class="experience-date">04/2022 – 01/2023</span>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Apr 2022 - Jan 2023</span>
+                        <h3>AI and IoT Engineer</h3>
+                        <h4>JICA (Japan International Cooperation Agency)</h4>
+                        <p>Conducted community problem analysis using Tankyu charts, resulting in deployable AI prototypes.</p>
+                        <div class="achievements">
+                            <span class="achievement">• 3 AI prototypes deployed</span>
+                            <span class="achievement">• Health & agriculture focus</span>
+                        </div>
                     </div>
-                    <h4>JICA (Japan International Cooperation Agency)</h4>
-                    <ul>
-                        <li>Developed three deployable AI prototypes for health and agriculture</li>
-                        <li>Presented findings to stakeholders on AI's developmental potential</li>
-                    </ul>
                 </div>
 
-                <div class="experience-item">
-                    <div class="experience-header">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">May 2021 - Mar 2022</span>
                         <h3>Backend Developer</h3>
-                        <span class="experience-date">05/2021 – 03/2022</span>
+                        <h4>SOLVIT AFRICA</h4>
+                        <p>Optimized financial app backend, significantly improving performance and user experience.</p>
+                        <div class="achievements">
+                            <span class="achievement">• 40% latency reduction</span>
+                            <span class="achievement">• 20% feature enhancement</span>
+                        </div>
                     </div>
-                    <h4>SOLVIT AFRICA</h4>
-                    <ul>
-                        <li>Optimized database queries reducing latency by <strong>40%</strong></li>
-                        <li>Integrated APIs enhancing app features by <strong>20%</strong></li>
-                    </ul>
                 </div>
             </div>
         </div>
@@ -264,108 +323,93 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <h3>Low-Cost Video Surveillance</h3>
-                    <p>Optimized OpenCV-based computer vision algorithms for low-power hardware, reducing computation costs for underserved communities.</p>
-                    <div class="project-tags">
-                        <span class="tag">OpenCV</span>
-                        <span class="tag">Computer Vision</span>
-                        <span class="tag">Hardware Optimization</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>Healthcare Medication Robot</h3>
-                    <p>Programmed autonomous medication delivery robot with obstacle avoidance and precise navigation for healthcare settings.</p>
-                    <div class="project-tags">
-                        <span class="tag">Arduino</span>
-                        <span class="tag">Robotics</span>
-                        <span class="tag">Healthcare</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-eye"></i>
-                    </div>
-                    <h3>AI Ophthalmology System</h3>
-                    <p>Designed deep learning models for eye disease detection from medical images, enhancing training time and inference speed.</p>
-                    <div class="project-tags">
-                        <span class="tag">TensorFlow</span>
-                        <span class="tag">PyTorch</span>
-                        <span class="tag">Medical AI</span>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3>AI Dust Management System</h3>
-                    <p>Award-winning AI system for sorting dust particles, reducing environmental hazards. Won top awards in Rwanda and Zambia.</p>
-                    <div class="project-tags">
-                        <span class="tag">Environmental AI</span>
-                        <span class="tag">Award Winner</span>
-                        <span class="tag">Huawei</span>
-                    </div>
-                </div>
+            <div class="section-header">
+                <span class="section-tag">Featured Work</span>
+                <h2 class="section-title">Research Projects</h2>
             </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <h2 class="section-title">Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3><i class="fas fa-code"></i> Programming</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">C++</span>
-                        <span class="skill-item">C</span>
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">NodeJS</span>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-video project-icon"></i>
+                        <div class="project-overlay">
+                            <span class="project-category">Computer Vision</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Low-Cost Video Surveillance</h3>
+                        <p>Optimized OpenCV-based computer vision algorithms for low-power hardware, making surveillance accessible to underserved communities.</p>
+                        <div class="project-impact">
+                            <div class="impact-item">
+                                <span class="impact-label">Platform</span>
+                                <span class="impact-value">Carnegie Mellon</span>
+                            </div>
+                            <div class="impact-item">
+                                <span class="impact-label">Focus</span>
+                                <span class="impact-value">Social Impact</span>
+                            </div>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">Edge Computing</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-brain"></i> AI & ML</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">PyTorch</span>
-                        <span class="skill-item">TensorFlow</span>
-                        <span class="skill-item">Computer Vision</span>
-                        <span class="skill-item">Federated Learning</span>
-                        <span class="skill-item">Deep Learning</span>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot project-icon"></i>
+                        <div class="project-overlay">
+                            <span class="project-category">Robotics</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Healthcare Medication Robot</h3>
+                        <p>Autonomous medication delivery system with advanced obstacle avoidance and precise navigation for healthcare facilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">Robotics</span>
+                            <span class="tech-tag">Healthcare</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-tools"></i> Tools</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">MLflow</span>
-                        <span class="skill-item">Arduino</span>
-                        <span class="skill-item">Raspberry Pi</span>
-                        <span class="skill-item">Postman</span>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-eye project-icon"></i>
+                        <div class="project-overlay">
+                            <span class="project-category">Medical AI</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Ophthalmology System</h3>
+                        <p>Deep learning models for detecting eye diseases from medical images, enhancing diagnostic accuracy and speed.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Medical Imaging</span>
+                        </div>
                     </div>
                 </div>
 
-                <div class="skill-category">
-                    <h3><i class="fas fa-chart-line"></i> Data & Research</h3>
-                    <div class="skill-items">
-                        <span class="skill-item">Data Analytics</span>
-                        <span class="skill-item">Statistics</span>
-                        <span class="skill-item">Research Methods</span>
-                        <span class="skill-item">Zotero</span>
+                <div class="project-card award">
+                    <div class="project-image">
+                        <i class="fas fa-award project-icon"></i>
+                        <div class="project-overlay">
+                            <span class="project-category">Award Winner</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Dust Management System</h3>
+                        <p>Award-winning AI system for environmental dust sorting, recognized with top honors in Rwanda and Zambia.</p>
+                        <div class="project-awards">
+                            <span class="award-badge">🏆 Rwanda Winner</span>
+                            <span class="award-badge">🏆 Zambia Winner</span>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Environmental AI</span>
+                            <span class="tech-tag">Huawei</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -375,55 +419,81 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>I'm always interested in discussing research opportunities, collaborations, or just connecting with fellow researchers in AI and computer vision.</p>
-                    
-                    <div class="contact-items">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <div>
+            <div class="contact-split">
+                <div class="contact-left">
+                    <div class="section-header">
+                        <span class="section-tag">Let's Connect</span>
+                        <h2 class="section-title">Ready to Collaborate?</h2>
+                    </div>
+                    <p class="contact-description">
+                        I'm always excited to discuss research opportunities, potential collaborations, 
+                        or simply connect with fellow researchers in AI and computer vision.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="detail-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="detail-content">
                                 <h4>Email</h4>
                                 <a href="mailto:uwamahoroangel78@gmail.com">uwamahoroangel78@gmail.com</a>
                             </div>
                         </div>
-                        
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <div>
+                        <div class="contact-detail">
+                            <div class="detail-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="detail-content">
                                 <h4>Phone</h4>
-                                <a href="tel:+250780919691">(+250) 780 919 691</a>
+                                <span>(+250) 780 919 691</span>
                             </div>
                         </div>
-                        
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <div>
+                        <div class="contact-detail">
+                            <div class="detail-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="detail-content">
                                 <h4>Location</h4>
                                 <span>Kigali, Rwanda</span>
                             </div>
                         </div>
                     </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/your-profile" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/your-username" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:uwamahoroangel78@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
                 </div>
                 
-                <div class="contact-form">
-                    <form id="contact-form">
-                        <div class="form-group">
-                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <div class="contact-right">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i> Send Message
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
                         </button>
                     </form>
                 </div>
@@ -435,17 +505,18 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <p>&copy; 2025 Angelique Uwamahoro. All rights reserved.</p>
-                <div class="footer-social">
-                    <a href="mailto:uwamahoroangel78@gmail.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/angelique-u/" class="social-link" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://github.com/Angelbidas" class="social-link" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
+                <div class="footer-left">
+                    <div class="footer-logo">AU</div>
+                    <p>AI Researcher & PhD Candidate specializing in Computer Vision and Federated Learning</p>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <a href="#about">About</a>
+                        <a href="#research">Research</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <p>&copy; 2025 Angelique Uwamahoro. All rights reserved.</p>
                 </div>
             </div>
         </div>
